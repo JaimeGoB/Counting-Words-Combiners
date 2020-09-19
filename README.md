@@ -1,4 +1,4 @@
-# Counting-Words-Combiners-Hadoop
+# Counting-Words-Map-Reduce-Using-Combiners-Hadoop
 
   I will implement a word counting program using combiners. Combiners primary job is to minimize the key value pairs that will be shuffled across network between mappers and reducers. The combiner will aggregate results locally for an individual mapper. Thus, making it faster to count the numbers of words in a file.
 
